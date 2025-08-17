@@ -8,6 +8,8 @@ class ReturnBackTestRequest(BaseModel):
     maxTrades: int
     startingCapital: float
 
+    
+
 
 class ReturnBackTestResponse(BaseModel):
     winRatePercentage: float
